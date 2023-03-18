@@ -1,0 +1,41 @@
+assignment 2
+ 203  mkdir KH_2
+  204  cd KH_2
+  205  git init
+  206  touch feature1.txt feature.txt
+  207  ls
+  208  git add feature1.txt feature2.txt
+  209  rm feature.txt
+  210  touch feature2.txt
+  211  git add feature2.txt
+  212  ls
+  213  git commit -m "commiting feature1.txt feature2.txt"
+  214  git branch
+  215  git branch develop
+  216  git branch feature1
+  217  git branch feature2
+  218  git branch
+  219  git checkout develop
+  220  ls
+  221  touch develop.txt
+  222  ls
+  223  git status
+  224  git add feature1.txt
+  225  git commit -m "comminting feture1.txt"
+  226  git checkout develop
+  227  git status
+  228  git stash -u
+  229  ls
+  230  checkout feature1
+  231  git checkout feature1
+  232  touch new.txt
+  233  git add new.txt
+  234  git commit -m "commiting new.txt"
+  235  git checkout develop
+  236  ls
+  237  git stash pop
+  238  git add develop.txt
+  239  git commit -m "comminting develop.txt"
+  240  git status
+  241  history
+ubuntu@ip-172-31-3-38:~/KH_2$ 
